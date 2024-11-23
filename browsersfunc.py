@@ -23,7 +23,7 @@ def openbrowser(z,url):
     time.sleep(1.5)
     searchib(url)
     time.sleep(1.5)
-    if z[-1] == 'x' or 'v':
+    if z[-1] == ('x' or 'v'):
         keyboard.press_and_release('ctrl+shift+p')
     else:
         keyboard.press_and_release('ctrl+shift+n')
